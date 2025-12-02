@@ -1,0 +1,73 @@
+.large-button {
+    padding: 20px 40px;
+    /* Adjust padding to increase button area around text */
+    font-size: 24px;
+    /* Increase font size for larger text */
+    width: 250px;
+    /* Set a fixed width, or use percentage for responsiveness */
+    height: 80px;
+    /* Set a fixed height */
+    /* Optional: Add other styling for appearance */
+    background-color: #007bff;
+    color: white;
+    border: 250px;
+    border-radius: 35px;
+    cursor: pointer;
+    margin-right: 70px;
+
+}
+
+body,
+html {
+    height: 100%
+}
+
+nav {
+    height: 12%;
+    background-color: rgba(0, 0, 128, 1)
+}
+
+#hero {
+    height: 55%;
+    background-color: rgba(178, 34, 34);
+    display: block;
+    margin: auto;
+    width: 50%;
+
+}
+
+section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.center-container {
+    text-align: center;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.button {
+  padding: 15px 25px;
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+.button:hover {background-color: #3e8e41}
+
+.button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}

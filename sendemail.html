@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="/styles/styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Send Email</title>
+</head>
+
+<body>
+    <div class="center-container">
+        <h2>Send Email</h2>
+        <form>
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name"><br><br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email"><br><br>
+
+            <form action="/action_page.php">
+                <label for="cars">Choose a reason:</label>
+                <select name="reason" id="reason">
+                    <option value="tech">Technical Support</option>
+                    <option value="billing">Billing/Payments</option>
+                    <option value="sales">Sales/Product Information</option>
+                    <option value="feedback">Feedback/Complaint</option>
+                    <option value="general">General Inquiry</option>
+                </select>
+                <br><br>
+            </form>
+
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="user_message" rows="4"></textarea>
+            </br></br>
+            <input type="submit" value="Submit">
+        </form>
+        </br></br>
+        <button class="button" onclick="location.href='index.html'">Go Back</button>
+    </div>
+
+</body>
