@@ -1,5 +1,5 @@
 # My Application Name
--This web site is a admin application for an ecomerce company.  It shows company revenue and allows you to sign up. You can also submit emails and select a reason for your email.
+-This web site is a admin application for an ecomerce company.  It shows company revenue and allows you to sign up. You can also submit emails and select a reason for your email. Use the blue buttons to access the functionality.
 
 
 # Technologies Used:
